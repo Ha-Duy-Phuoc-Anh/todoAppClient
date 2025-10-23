@@ -20,7 +20,7 @@ const ListTodos = () => {
 
   const getTodos = async () => {
     try {
-      const response = await fetch(`"${process.env.REACT_APP_API_URL}/todos"`);
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/todos`);
       const jsonData = await response.json();
 
       setTodos(jsonData);
