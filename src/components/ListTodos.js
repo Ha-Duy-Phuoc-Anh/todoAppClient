@@ -7,7 +7,7 @@ const ListTodos = () => {
 
   const deleteTodo = async (id) => {
     try {
-      const deleteTodo = await fetch(`http://192.168.1.10:5000/todos/${id}`, {
+      const deleteTodo = await fetch(`${process.env.REACT_APP_API_URL}/todos/${id}`, {
         method: "DELETE",
       });
 
@@ -20,7 +20,7 @@ const ListTodos = () => {
 
   const getTodos = async () => {
     try {
-      const response = await fetch("http://192.168.1.10:5000/todos");
+      const response = await fetch(`"${process.env.REACT_APP_API_URL}/todos"`);
       const jsonData = await response.json();
 
       setTodos(jsonData);
