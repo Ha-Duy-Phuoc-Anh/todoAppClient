@@ -1,0 +1,18 @@
+.TodoBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #26361b;
+  width: 100%;
+  height: 100%;
+  margin: 1em;
+  flex: 9;
+  overflow-y: scroll;
+}
+
+.TodoBoard::-webkit-scrollbar {
+  display: none;
+}
+
+

@@ -2,6 +2,14 @@
   "short_name": "React App",
   "name": "Create React App Sample",
   "start_url": ".",
+  "icons": [
+    {
+      "src": "./assets/phixahTodoIco.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

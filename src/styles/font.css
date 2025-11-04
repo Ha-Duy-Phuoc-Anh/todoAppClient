@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Phixah Bahn";
+    src: url("assets/fonts/Bahnschrift.ttf") format("truetype");
+    font-weight: 100 200 300 400 500 600 700 800 900;
+    font-style: normal italic; 
+}
+
+@font-face {
+    font-family: "Phixah Air";
+    src: url("assets/fonts/Candara.ttf") format("truetype");
+    ffont-weight: 100 200 300 400 500 600 700 800 900;
+    font-style: normal italic;
+}
+
+@font-face {
+    font-family: "Phixah Core";
+    src: url("assets/fonts/Corbel.ttf") format("truetype");
+    font-weight: 100 200 300 400 500 600 700 800 900;
+    font-style: normal italic;
+}

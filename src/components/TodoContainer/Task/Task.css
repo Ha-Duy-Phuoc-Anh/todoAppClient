@@ -1,0 +1,43 @@
+.Task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25em;
+  width: 100%;
+  font-family: "Phixah Bahn";
+  font-weight: 100;
+}
+
+.Task p, button {
+  color: white;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+.Task p:first-child {
+  white-space: normal;
+  flex: 15;
+}
+
+.Task button {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Completed, .Completed button {
+  background-color: #5e6c3d;
+}
+.Completed button:hover {
+  background-color: #9db074;
+}
+
+.Uncomplete, .Uncomplete button {
+  background-color: #bf6d2e;
+}
+.Uncomplete button:hover {
+  background-color: #e0a264;
+}

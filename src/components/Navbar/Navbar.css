@@ -1,0 +1,47 @@
+.Navbar {
+  width: 100%;
+  height: fit-content;
+  padding: 1em;
+  background-color: #5e6c3d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 3px 1px gray;
+}
+.Brand {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding-inline: 1em;
+  white-space: nowrap; 
+  color: white;
+  font-family: "Phixah Bahn";
+}
+.Brand h2 {
+  font-size: 2em;
+  margin-left: 10%;
+}
+
+.AuthBtnGroup button {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  font-size: 1.15em;
+  font-weight: bold;
+  font-family: "Phixah Core";
+  border-radius: 7px;
+  color: white;
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+  background-color: #26361b;
+  cursor: pointer;
+}
+
+.IntroBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
