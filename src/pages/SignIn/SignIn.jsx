@@ -19,7 +19,7 @@ const SignIn = () => {
 
     // Call api
     try {
-      const res = await signin(data);
+      await signin(data);
       alert(
         "Signin successfully, you will be redirect into dashboard in a few seconds"
       );
