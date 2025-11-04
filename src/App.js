@@ -1,18 +1,12 @@
-import { Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage/Homepage";
-import SignUp from "pages/SignUp/SignUp";
-import SignIn from "pages/SignIn/SignIn";
-import Dashboard from "pages/Dashboard/Dashboard";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "styles/global.css";
+import "styles/font.css";
 
-const App = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/signup" element={<SignUp />}></Route>
-      <Route path="/signin" element={<SignIn />}></Route>
-      <Route path="/dashboard" element={<Dashboard />}></Route>
-    </Routes>
-  );
-};
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
